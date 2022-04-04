@@ -1,0 +1,68 @@
+* {
+  font-family: "Lobster", cursive;
+  
+}
+
+
+body {
+  background-color: #7395ae;
+  
+}
+
+h1 {
+  color: #2e4c61;
+  font-size: 10rem;
+  text-align: center;
+  margin-top: 8%;
+}
+
+h2, footer{
+  color: #2e4c61;
+  font-size: 5rem;
+  margin-top: 2%;
+  text-align: center;
+}
+.container-fluid {
+  text-align: center;
+}
+
+.col {
+  padding: auto 5% auto 5%;
+}
+
+#cup1 {
+  width: 10%;
+  visibility: hidden;
+  
+}
+
+#cup2 {
+  width: 10%;
+  visibility: hidden;
+}
+@media (max-width: 700px ){
+    * {
+        font-size: 80%;
+}
+}
+
+@media (max-width: 1055px) {
+  .container-fluid #player1 {
+    width: 65%;
+  }
+  .container-fluid #player2 {
+    width: 65%;
+  }
+}
+
+@media (min-width: 1800px) {
+  h1 {
+    margin-top: 5%;
+  }
+  .container-fluid #player1 {
+    width: 65%;
+  }
+  .container-fluid #player2 {
+    width: 65%;
+  }
+}
